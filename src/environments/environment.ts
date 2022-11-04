@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // baseUrl:"http://rcnlagosng-001-site1.atempurl.com/",
+  baseUrl:"RcnLagos/",
+  baseUrlExt: "",
+  login: "api/Account/login",
+  register: "api/Account/register",
+  getAllRoles: "api/Account/get-roles",
 };
 
 /*

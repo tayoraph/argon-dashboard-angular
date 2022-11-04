@@ -1,0 +1,23 @@
+{
+ 
+    
+    "/RcnLagos/*": {
+      "target": "http://rcnlagosng-001-site1.atempurl.com/",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/RcnLagos": ""
+      }
+    },
+   
+    "/nibbs/*": {
+      "target": "http://10.0.7.60/bvnservice/",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/nibbs": ""
+      }
+    }
+  }
